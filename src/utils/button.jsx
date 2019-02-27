@@ -5,7 +5,7 @@ export default function ButtonLink(props) {
     return (
         <Link
             component="button"
-            href={props.href}
+            // href={props.href}
             target="_blank"
             onClick={() => { props.onClick('e.target.value'); }}
         >
